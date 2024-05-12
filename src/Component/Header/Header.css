@@ -1,0 +1,105 @@
+
+  .header {
+    display: flex;
+    flex-direction: row; 
+    justify-content:space-around; 
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+
+  }
+
+  .logo {
+    height: 80px; 
+    fill: #8809ff;
+
+}
+  .logo-container{
+    display: flex;
+    flex-direction: row; 
+    justify-content:space-around; 
+    align-items: center;
+  }
+
+
+.lien-nav {
+
+    color: 	#c8c8c8;
+}
+
+.lien-nav a{
+    margin-left: 40px;
+    color: 	#c8c8c8;
+
+}
+
+.lien-nav a:hover {
+
+  color: 	#ffffff;
+}
+
+.lien-nav-btn{
+  color: #dfdfdf;
+}
+
+
+
+@media screen and (max-width: 1100px) { 
+  .header {
+    font-size: 15px;
+  }
+  .logo {
+    height: 60px; 
+    fill: #8809ff;
+}
+.lien-nav a{
+    margin-left: 30px;
+    color: 	#c8c8c8;
+}
+}
+
+
+@media screen and (max-width: 700px) { 
+  .header {
+    font-size: 12px;
+  }
+  .logo {
+    height: 50px; 
+    fill: #8809ff;
+}
+.lien-nav a{
+    margin-left: 20px;
+    color: 	#c8c8c8;
+}
+}
+
+@media screen and (max-width: 500px) { 
+  .header {
+    font-size: 11px;
+  }
+  .logo {
+    height: 40px; 
+    fill: #8809ff;
+}
+.lien-nav a{
+    margin-left: 15px;
+    color: 	#c8c8c8;
+}
+}
+
+@media screen and (max-width: 440px) { 
+  .header {
+    font-size: 10px;
+  }
+  .logo {
+    height: 30px; 
+    fill: #8809ff;
+}
+.lien-nav a{
+    margin-left: 10px;
+    color: 	#c8c8c8;
+}
+}

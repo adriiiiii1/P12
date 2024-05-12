@@ -1,0 +1,48 @@
+
+
+.Error{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 300px;
+}
+
+.Error h1, h2 {
+    font-size: 300px;
+    color: #8809ff;
+  }
+  
+
+  .Error h1 {
+    margin: 80px; 
+
+  }
+  .Error h2 {
+    font-size: 30px; 
+  }
+
+  .ErrorLink{
+    margin-top: 50px;
+    text-decoration: underline;
+    color: white !important;
+  }
+
+
+  @media screen and (max-width: 768px) { 
+    .Error h1 {
+      font-size: 200px; 
+    }
+    .Error h2 {
+      font-size: 25px; 
+    }
+  }
+  
+  @media screen and (max-width: 500px) { 
+    .Error h1 {
+      font-size: 100px;
+    }
+    .Error h2 {
+      font-size: 20px; 
+    }
+  
+  }

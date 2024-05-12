@@ -1,0 +1,85 @@
+.Banner_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+.text-container .and{
+font-family: "Helvetica Neue", sans-serif;
+  }
+
+  .text-container p {
+    font-family: "Borel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    border-right: .10em solid rgb(255, 255, 255); 
+    line-height: 4px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    animation: typing 2.25s steps(50, end), blink-caret step-end infinite, hide-caret 0s 2s forwards;
+    padding: 30px;
+    padding-top: 50px;
+    position: relative;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  0%, 100% { border-color: transparent }
+  50% { border-color: rgb(0, 0, 0); }
+}
+
+@keyframes hide-caret {
+  to { border-color: transparent; }
+}
+
+.banner-mid{
+  margin-top: 100px;
+}
+
+
+@media screen and (max-width: 1100px) { 
+  .text-container p {
+    font-size: 30px;
+    padding-top: 20px;
+}
+.banner-mid{
+  margin-top: 40px;
+}
+}
+
+@media screen and (max-width: 700px) { 
+  .text-container p {
+    font-size: 25px;
+    padding-top: 20px;
+}
+.banner-mid{
+  margin-top: 30px;
+}
+}
+
+@media screen and (max-width: 500px) { 
+  .text-container p {
+    font-size: 20px;
+    padding-top: 10px;
+}
+.banner-mid{
+  margin-top: 20px;
+}
+}
+
+@media screen and (max-width: 400px) { 
+  .text-container p {
+    font-size: 18px;
+    padding-top: 10px;
+}
+.banner-mid{
+  margin-top: 10px;
+}
+}

@@ -1,0 +1,68 @@
+.portfolio {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    margin-bottom: 250px;
+  }
+  
+  .portfolio div {
+    display: inline-block;
+    color: white;
+    text-align: center;
+  }
+
+  .portfolio img {
+    display: inline-block;
+    width: 700px;
+    height: 570px;
+    margin-right: 50px;
+    border-radius: 1rem;
+    margin-top: 50px;
+  }
+  .portfolio-title{
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  .portfolio-link{
+    color: #8809ff !important;
+
+  }
+
+  .portfolio-flex{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  @media screen and (max-width: 1100px) { 
+    .portfolio {
+      margin-bottom: 150px;
+    }
+    .portfolio img {
+      width: 500px;
+      height: 375px;
+      margin-right: 50px;
+    }
+    .portfolio-card-title{
+      margin-bottom: 20px;
+      font-size: 2.2rem;
+      text-align: center;
+    }
+    .portfolio-description, .portfolio-link, .portfolio-skills{
+      font-size: 0.65rem;
+    }
+  }
+
+  @media screen and (max-width: 500px) { 
+    .portfolio img {
+      width: 350px;
+      height: 275px;
+      margin-right: 20px;
+    }
+    .portfolio-card-title{
+      margin-bottom: 20px;
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
