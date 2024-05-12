@@ -1,12 +1,10 @@
 .stars {
     background: linear-gradient(to right, #1d1d1f, #0e0e11);
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
     z-index: -1;
     overflow: hidden;
   }
